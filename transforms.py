@@ -1,6 +1,6 @@
 from PIL import Image
 from torch.utils.tensorboard import SummaryWriter
-from torchvision import transforms
+from torchvisions import transforms
 
 #绝对路径:C:\Users\xs\Desktop\learn_pytorch\dataset\train\ants_image\7759525_1363d24e88.jpg
 #相对路径dataset/train/ants_image/7759525_1363d24e88.jpg
