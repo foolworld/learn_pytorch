@@ -1,6 +1,6 @@
 from PIL import Image
 from torch.utils.tensorboard import SummaryWriter
-from torchvision import transforms
+from torchvisions import transforms
 
 writer = SummaryWriter("logs")
 
