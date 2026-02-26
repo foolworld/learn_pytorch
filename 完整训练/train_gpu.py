@@ -98,7 +98,7 @@ for i in range(epoch):
             total_accuracy = total_accuracy+accuracy.item()
 
     print("整体测试集上的loss:{}".format(total_test_loss))
-    print("整体测试集上的正确率：{}".format(total_test_loss/test_data_size))
+    print("整体测试集上的正确率:{}".format(total_test_loss/test_data_size))
     writer.add_scalar("test_loss", total_test_loss, total_train_step)
     writer.add_scalar("accuracy", total_accuracy/test_data_size, total_test_step)
     total_test_step+=1
